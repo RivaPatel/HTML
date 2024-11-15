@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="description" content="learn about Forms">
+    <title>Forms - Lets learn it</title>
+</head>
+
+<body>
+    <form action="/submit" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Username">
+        <br><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Password">
+        <br><br>
+
+        <!-- Radio buttons for gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- checkbox button -->
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Subscribe to newsletter</label>
+        <br><br>
+
+        <!-- textarea -->
+        <label for="comment">comment:</label><textarea name="comment" rows="4" cols="50">
+            Enter your comment here...
+      </textarea>
+        <br><br>
+
+        <!-- select -->
+        <select name="Letter type">
+            <option value=".pdf">.pdf</option>
+            <option value=".ppt">.ppt</option>
+            <option value=".png">.png</option>
+        </select>
+        <br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
